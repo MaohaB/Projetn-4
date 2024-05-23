@@ -330,7 +330,19 @@ input[type="submit"] {
   }
 }
 
+/* réferencement social */
+.reflocal {
+  display: none;
+}
+
 /*Définir une largeur et une hauteur pour les images*/
+.gallery-item {
+  height: 440px ;
+  width: 400px ;
+}
+.lightboxImage {
+  width: 466.667px ;
+}
 .picture .left img {
   height: 487.55px ;
   width: 488.883px ;
