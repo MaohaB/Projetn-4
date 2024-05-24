@@ -123,9 +123,13 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #beb45a;
+  background-color: red;
   border-radius: 0;
 }
+.active-tag {
+  background-color: red;
+}
+
 .item-column {
   margin-bottom: 0 !important;
   padding: 0;
@@ -329,7 +333,6 @@ input[type="submit"] {
     width: 80%;
   }
 }
-
 /* réferencement social */
 .reflocal {
   display: none;
